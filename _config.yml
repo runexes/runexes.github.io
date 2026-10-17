@@ -1,3 +1,20 @@
 title: Aleksandr Sliusarev
 description: Software Engineer → DevOps | Infrastructure & Automation | Remote
+url: https://alex.sliusarev.com
 google_tag_manager: GTM-PZC3C26
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - wrangler.jsonc
+  - Makefile
+  - README.md
+  - node_modules
+  - vendor
+  - .bundle
+  - .wrangler
